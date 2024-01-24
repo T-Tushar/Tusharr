@@ -1,1 +1,1 @@
-alert("This is a reminder that Tushar loves you more than anything in this world")
+alert("This is here to remind you that tushar loves you more than anything")
