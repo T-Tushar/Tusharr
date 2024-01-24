@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tushar's Socials</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>My Socials</h1>
     <ul>
@@ -13,6 +15,48 @@
         <li><a href="https://instagram.com/uwu_9581">My instagram</a></li>
     </ul>
     <img width="300" src="catu.jpg" alt="cat image">
-    <script src="script.js"></script>
+    <form action="post">
+        <label for="Your name">Enter your name : </label>
+        <input type="text" id="Your name" name="Your name" placeholder="Enter your name" autofocus>
+        <br><br>
+        <!-- Putting in Password-->
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <br><br>
+        <!--Putting Gender-->
+        <label>Gender : </label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="Tushar" name="gender" value="Tushar">
+        <label for="Tushar">Tushar</label>
+        <br><br>
+        <!--Mandatory Gay check-->
+        <label for="Gay">Check if you gay : </label>
+        <input type="checkbox" name="Gay check" id="Gay">
+        <br><br>
+        <!--Search-->
+        <label for="Search">Search anything : </label>
+        <input type="search" name="Seach" id="Search" placeholder="Seach box">
+        <br><br>
+        <!--Uplaoding a file-->
+        <label for="Uplaod">Upload a file : </label>
+        <input type="file">
+        <br><br>
+
+        <label for="Cats">Enter Catu number : 
+            <select name="Cats">
+                <option value="Catu 1">Catu 1</option>
+                <option value="Catu 2">Catu 2</option>
+                <option value="Catu 3">Catu 3</option>
+            </select>
+        </label>
+        <br><br>
+        <label for="comment">Kaisa laga : </label>
+        <textarea name="Comment" id="Comment" cols="30" rows="10" placeholder="Comment your thoughts"></textarea>
+
+    </form>
 </body>
+
 </html>
